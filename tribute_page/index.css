@@ -1,0 +1,41 @@
+body
+{
+    background-color: #1b0f07;
+    background-image: url('image/brown_vintage_background.jpg');
+    opacity: 0.8;
+}
+.container
+{
+    
+    width: 100%; 
+    
+
+}
+.container .text
+{
+    width: 90%;
+    background-color: #170606;
+    height: 150px;
+    animation: slide 2s ease;
+    margin: 0 50px;
+    padding: 20px;
+    position: absolute;
+    cursor: pointer;
+    top: 300px;
+    color: aliceblue;
+    text-align: center;
+}
+@keyframes slide {
+    0% {
+     transform: skewX(0deg) translateX(-500px); 
+    }
+  
+    100% {
+        transform: skewX(0deg);
+    }
+  }
+.container .text h1{
+    
+    font-size: 60px;
+    margin: 0;
+}

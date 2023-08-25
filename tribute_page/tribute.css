@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body
+{
+   
+    
+    background-color: #9c7052;
+    opacity: 0.7;
+
+}
+h3{
+    font-size: 18px;
+    color: aliceblue;
+    padding: 20px;
+
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+
+}
+.container
+{
+    text-align: center;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    color: #311f13;
+    background-color:#311f13;
+    margin: 50px auto 0;
+    color: aliceblue;
+    transition: slide 0.7s ease;
+}
+
+.container .img{
+    max-width: 60%;
+    padding: 20px;
+}
+.container .img img{
+    width: 100%;
+}
+
+.hide
+{
+    display: none;
+}
+
+.content
+{
+    
+    max-width: 40%;
+    /* margin: 20px 60px; */
+    margin-left: 0 ;
+    
+    margin-top: 0px;
+   text-align: center;
+}
+.margin
+{
+    margin-top: 120px;
+}
+.content .con{
+    /* padding: 10px; */
+}
+.content .con h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 0;
+}
+.content .con h3{
+    font-size: 30px;
+
+}
+.content .con p{
+    font-size: 18px;
+    padding-top: 10px;
+    color:#f4decb;
+    font-weight: 00;
+    line-height: 35px;
+}
+
+.sections
+{
+    margin: 0px  auto;
+    max-width: 90%;
+    /* justify-content: space-between; */
+    background-color: #311f13;
+    padding: 0;
+    
+}
+
+.details
+{
+    text-align: center;
+    
+    height: 900px;
+    display: flex;
+    margin: 0 10px;
+    
+    
+}
+.details .item{
+    max-width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a87e62;
+    
+}
+.details .item h3{
+    font-size: 30px;
+    color: #311f13;
+    margin: 20px;
+    padding: 0;
+    
+}
+.details .item p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
